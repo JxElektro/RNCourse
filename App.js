@@ -1,6 +1,6 @@
 //import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { StyleSheet, View, Button, TextInput, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 import GoalItem from './components/GoalItem';
 import GoalInput from './components/GoalInput'
 
@@ -14,7 +14,6 @@ export default function App() {
       { text: enteredGoalText, key: Math.random().toString() }
     ]);
   };
-
 
 
   return (
